@@ -1,0 +1,1 @@
+select geom, minzoom, highway, osm_id, name, time, length, average_speed, seq from beijing_traffic where %seq%=seq and minzoom <= %minzoom% and ST_Intersects(ST_GeometryFromText('POLYGON((%long1% %lat1%,%long2% %lat1%,%long2% %lat2%, %long1% %lat2%, %long1% %lat1%))',4326),geom) is true
