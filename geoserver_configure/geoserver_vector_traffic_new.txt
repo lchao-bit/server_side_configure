@@ -1,1 +1,1 @@
-select * from traffic_%seq% where minzoom <= %minzoom% and ST_Intersects(ST_GeometryFromText('POLYGON((%long1% %lat1%,%long2% %lat1%,%long2% %lat2%, %long1% %lat2%, %long1% %lat1%))',4326),the_geom) is true
+select * from traffic_%seq% where minzoom <= %minzoom% and ST_Intersects(ST_GeometryFromText('POLYGON((%long1% %lat1%,%long2% %lat1%,%long2% %lat2%, %long1% %lat2%, %long1% %lat1%))',4326),geom) is true
