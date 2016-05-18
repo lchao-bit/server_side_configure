@@ -1,0 +1,65 @@
+17, where "addr:interpolation" is not null
+16, where "natural" = 'tree_row'
+16, where railway = 'platform'
+16, where railway = 'turntable'
+16, where highway = 'platform'
+16, where power = 'minor_line'
+16, where barrier is not null
+15, where railway = 'tram' and service in ('spur', 'siding', 'yard')
+15, where railway = 'disused'
+15, where man_made = 'embankment'
+15, where railway = 'miniature'
+14, where historic = 'citywalls'
+14, where man_made = 'cutline'
+14, where railway = 'monorail'
+14, where power = 'line'
+14, where waterway IN ('river', 'canal', 'derelict_canal', 'stream', 'drain', 'ditch', 'wadi') AND bridge IN ('yes', 'aqueduct')
+13, where highway = 'cycleway' or ( highway='path' and bicycle = 'designated')
+13, where highway = 'service'
+13, where highway = 'footway' or (highway = 'path' and bicycle != 'designated' and horse != 'designated')
+13, where highway = 'path' and bicycle is null and horse is null
+13, where railway = 'preserved'
+13, where highway = 'track'
+13, where railway = 'rail' and service in ('spur', 'siding', 'yard')
+13, where railway = 'construction'
+13, where highway = 'pedestrian'
+13, where highway = 'living_street'
+13, where highway = 'steps'
+13, where highway = 'bridleway' or (highway = 'path' and horse = 'designated')
+13, where waterway = 'stream' or waterway = 'ditch' or waterway = 'drain'
+13, where waterway = 'wadi' and (bridge is null or bridge not in ('yes', 'aqueduct'))
+13, where "natural" = 'cliff'
+13, where highway = 'bus_guideway' and (tunnel is null or tunnel != 'yes')
+13, where boundary = 'administrative' and (admin_level = '9' or admin_level = '10')
+13, where waterway = 'dam' or  waterway = 'weir' or waterway = 'lock_gate'
+13, where highway = 'path'
+12, where railway = 'tram'
+12, where man_made = 'pier' or man_made = 'breakwater' or man_made = 'groyne'
+12, where aerialway = 'cable_car' or aerialway = 'gondola'
+12, where highway = 'construction'
+12, where highway = 'raceway'
+12, where railway = 'subway'
+12, where railway = 'preserved'
+12, where aerialway = 'goods'
+12, where railway = 'preserved' and service in ('spur', 'siding', 'yard')
+12, where aerialway = 'chair_lift' or aerialway = 'drag_lift' or aerialway = 't-bar' or aerialway = 'j-bar' or aerialway = 'platter' or aerialway = 'rope_tow'
+12, where waterway = 'canal'  and (bridge is null or bridge not in ('yes', 'aqueduct'))
+12, where highway = 'unclassified'
+12, where highway = 'residential'
+12, where boundary = 'administrative' and (admin_level = '7' or admin_level = '8')
+12, where waterway = 'derelict_canal' and (bridge is null or bridge not in ('yes', 'aqueduct'))
+11, where aeroway = 'runway'
+11, where aeroway = 'taxiway'
+11, where boundary = 'administrative' and (admin_level = '5' or admin_level = '6')
+10, where highway = 'road'
+10, where highway = 'tertiary' or highway = 'tertiary_link'
+9, where highway = 'secondary' or highway = 'secondary_link'
+8, where highway = 'primary' or highway = 'primary_link'
+8, where railway = 'light_rail' or railway = 'funicular' or railway = 'narrow_gauge'
+8, where waterway = 'river'
+7, where route = 'ferry'
+7, where railway = 'rail'
+5, where highway = 'motorway' or highway = 'motorway_link'
+5, where highway = 'trunk' or highway = 'trunk_link'
+4, where boundary = 'administrative' and (admin_level = '2' or admin_level = '3')
+4, where boundary = 'administrative' and admin_level = '4'
